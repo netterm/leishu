@@ -1,0 +1,68 @@
+{
+  "text": "常用手册",
+  "value": "50",
+  "children": [
+    {
+      "text": "硬件类方法",
+      "value": "501",
+      "children": [
+        {
+          "text": "问题1",
+          "value": "5011",
+          "children": [
+            {
+              "text": "方法",
+              "value": "50111"
+            }
+          ]
+        },
+        {
+          "text": "问题2",
+          "value": "5012",
+          "children": [
+            {
+              "text": "方法2",
+              "value": "50121"
+            }
+          ]
+        },
+        {
+          "text": "问题3",
+          "value": "5013",
+          "children": [
+            {
+              "text": "方法3",
+              "value": "5013"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "平台软件网络类方法",
+      "value": "502",
+      "children": [
+        {
+          "text": "问题4",
+          "value": "5021",
+          "children": [
+            {
+              "text": "方法4",
+              "value": "50211"
+            }
+          ]
+        },
+        {
+          "text": "问题5",
+          "value": "5022",
+          "children": [
+            {
+              "text": "方法5",
+              "value": "50221"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,616 @@
+{
+  "text": "升降机故障",
+  "value": "30",
+  "children": [
+    {
+      "text": "老主机",
+      "value": "301",
+      "children": [
+        {
+          "text": "主机黑屏",
+          "value": "3011",
+          "children": [
+            {
+              "text": "断电",
+              "value": "30111",
+              "children": [
+                {
+                  "text": "整体断电",
+                  "value": "301111",
+                  "children": [
+                    {
+                      "text": "等待项目供电系统恢复",
+                      "value": "3011111",
+                      "children": [
+                        {
+                          "text": "升降机主机显示正常",
+                          "value": "30111111",
+                          "children": [
+                            { "text": "SGDT-01", "value": "301111111" }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "局部断电",
+                  "value": "301112",
+                  "children": [
+                    {
+                      "text": "检查插线板是否有电",
+                      "value": "3011121",
+                      "children": [
+                        {
+                          "text": "无电",
+                          "value": "30111211",
+                          "children": [
+                            {
+                              "text": "更换插线板",
+                              "value": "301112111",
+                              "children": [
+                                {
+                                  "text": "升降机主机显示正常",
+                                  "value": "3011121111",
+                                  "children": [
+                                    {
+                                      "text": "SGDT-02",
+                                      "value": "30111211111"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "text": "有电",
+                          "value": "30111212",
+                          "children": [
+                            {
+                              "text": "升级程序",
+                              "value": "301112121",
+                              "children": [
+                                {
+                                  "text": "升降机恢复显示",
+                                  "value": "3011121211",
+                                  "children": [
+                                    {
+                                      "text": "SGDT-03",
+                                      "value": "30111212111"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "主机离线",
+          "value": "3012",
+          "children": [
+            {
+              "text": "断网",
+              "value": "30121",
+              "children": [
+                {
+                  "text": "物联网卡欠费",
+                  "value": "301211",
+                  "children": [
+                    {
+                      "text": "缴费恢复升降机在线",
+                      "value": "3012111",
+                      "children": [
+                        {
+                          "text": "SGDT-20",
+                          "value": "30121111"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "物联网卡未欠费",
+                  "value": "301212",
+                  "children": [
+                    {
+                      "text": "升级程序",
+                      "value": "3012121",
+                      "children": [
+                        {
+                          "text": "SGDT-21",
+                          "value": "30121211"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "数据无",
+          "value": "3013",
+          "children": [
+            {
+              "text": "平台数据无",
+              "value": "30131",
+              "children": [
+                {
+                  "text": "高度数据无",
+                  "value": "301311",
+                  "children": [
+                    {
+                      "text": "设备不正常",
+                      "value": "3013111",
+                      "children": [
+                        {
+                          "text": "更换设备",
+                          "value": "30131111",
+                          "children": [
+                            {
+                              "text": "数据有",
+                              "value": "301311111",
+                              "children": [
+                                { "text": "SGDT-36", "value": "3013111111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "设备正常",
+                      "value": "3013112",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "30131121",
+                          "children": [
+                            {
+                              "text": "数据有",
+                              "value": "301311211",
+                              "children": [
+                                { "text": "SGDT-37", "value": "3013112111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "防冲顶",
+                  "value": "301312",
+                  "children": [
+                    {
+                      "text": "还未上线",
+                      "value": "3013121"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "手机数据无",
+              "value": "30132",
+              "children": [
+                {
+                  "text": "研发解决",
+                  "value": "301321",
+                  "children": [
+                    {
+                      "text": "数据恢复",
+                      "value": "3013211",
+                      "children": [{ "text": "SGDT-38", "value": "30132111" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "数据不准",
+          "value": "3014",
+          "children": [
+            {
+              "text": "平台数据不准",
+              "value": "30141",
+              "children": [
+                {
+                  "text": "高度数据不准",
+                  "value": "301411",
+                  "children": [
+                    {
+                      "text": "标定不准",
+                      "value": "3014111",
+                      "children": [
+                        {
+                          "text": "重新标准",
+                          "value": "30141111",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "301411111",
+                              "children": [
+                                { "text": "SGDT-46", "value": "3014111111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "标定正确显示不准",
+                      "value": "3014112",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "30141121",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "301411211",
+                              "children": [
+                                { "text": "SGDT-47", "value": "3014112111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "防冲顶",
+                  "value": "301412",
+                  "children": [
+                    {
+                      "text": "还未上新",
+                      "value": "3014121"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "手机数据不准",
+              "value": "30142",
+              "children": [
+                {
+                  "text": "研发支持恢复正确",
+                  "value": "301421",
+                  "children": [
+                    {
+                      "text": "SGDT-48",
+                      "value": "3014211"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "新主机",
+      "value": "302",
+      "children": [
+        {
+          "text": "主机黑屏",
+          "value": "3021",
+          "children": [
+            {
+              "text": "断电",
+              "value": "30211",
+              "children": [
+                {
+                  "text": "整体断电",
+                  "value": "302111",
+                  "children": [
+                    {
+                      "text": "等待项目供电系统恢复",
+                      "value": "3021111",
+                      "children": [
+                        {
+                          "text": "升降机主机显示正常",
+                          "value": "30211111",
+                          "children": [
+                            { "text": "SGDT-50", "value": "302111111" }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "局部断电",
+                  "value": "302112",
+                  "children": [
+                    {
+                      "text": "检查插线板是否有电",
+                      "value": "3021121",
+                      "children": [
+                        {
+                          "text": "无电",
+                          "value": "30211211",
+                          "children": [
+                            {
+                              "text": "更换插线板",
+                              "value": "302112111",
+                              "children": [
+                                {
+                                  "text": "升降机主机显示正常",
+                                  "value": "3021121111",
+                                  "children": [
+                                    {
+                                      "text": "SGDT-51",
+                                      "value": "30211211111"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "text": "有电",
+                          "value": "30211212",
+                          "children": [
+                            {
+                              "text": "升级程序",
+                              "value": "302112121",
+                              "children": [
+                                {
+                                  "text": "恢复显示",
+                                  "value": "3021121211",
+                                  "children": [
+                                    {
+                                      "text": "SGDT-52",
+                                      "value": "30211212111"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "主机离线",
+          "value": "3022",
+          "children": [
+            {
+              "text": "断网",
+              "value": "30221",
+              "children": [
+                {
+                  "text": "物联网卡欠费",
+                  "value": "302211",
+                  "children": [
+                    {
+                      "text": "缴费恢复升降机在线",
+                      "value": "3022111",
+                      "children": [
+                        {
+                          "text": "SGDT-60",
+                          "value": "30221111"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "物联网卡未欠费",
+                  "value": "302212",
+                  "children": [
+                    {
+                      "text": "升级程序",
+                      "value": "3022121",
+                      "children": [
+                        {
+                          "text": "SGDT-61",
+                          "value": "30221211"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "数据无",
+          "value": "3023",
+          "children": [
+            {
+              "text": "平台数据无",
+              "value": "30231",
+              "children": [
+                {
+                  "text": "高度数据无",
+                  "value": "302311",
+                  "children": [
+                    {
+                      "text": "设备不正常",
+                      "value": "3023111",
+                      "children": [
+                        {
+                          "text": "更换设备",
+                          "value": "30231111",
+                          "children": [
+                            {
+                              "text": "数据有",
+                              "value": "302311111",
+                              "children": [
+                                { "text": "SGDT-70", "value": "302311111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "设备正常",
+                      "value": "3023112",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "30231121",
+                          "children": [
+                            {
+                              "text": "数据有",
+                              "value": "302311211",
+                              "children": [
+                                { "text": "SGDT-71", "value": "3023112111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "防冲顶",
+                  "value": "302312",
+                  "children": [
+                    {
+                      "text": "还未上线",
+                      "value": "3023121"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "手机数据无",
+              "value": "30232",
+              "children": [
+                {
+                  "text": "研发解决",
+                  "value": "302321",
+                  "children": [
+                    {
+                      "text": "数据恢复",
+                      "value": "3023211",
+                      "children": [{ "text": "SGDT-72", "value": "30232111" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "数据不准",
+          "value": "3024",
+          "children": [
+            {
+              "text": "平台数据不准",
+              "value": "30241",
+              "children": [
+                {
+                  "text": "高度数据不准",
+                  "value": "302411",
+                  "children": [
+                    {
+                      "text": "标定不准",
+                      "value": "3024111",
+                      "children": [
+                        {
+                          "text": "重新标准",
+                          "value": "30241111",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "302411111",
+                              "children": [
+                                { "text": "SGDT-80", "value": "3024111111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "标定正确显示不准",
+                      "value": "3024112",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "30241121",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "302411211",
+                              "children": [
+                                { "text": "SGDT-81", "value": "3024112111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "防冲顶",
+                  "value": "302412",
+                  "children": [
+                    {
+                      "text": "还未上新",
+                      "value": "3024121"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "手机数据不准",
+              "value": "30242",
+              "children": [
+                {
+                  "text": "研发解决",
+                  "value": "302421",
+                  "children": [
+                    {
+                      "text": "数据准确",
+                      "value": "3024211",
+                      "children": [
+                        {
+                          "text": "SGDT-82",
+                          "value": "30242111"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

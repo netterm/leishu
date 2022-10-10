@@ -1,0 +1,1041 @@
+{
+  "text": "塔吊故障",
+  "value": "20",
+  "children": [
+    {
+      "text": "老主机",
+      "value": "201",
+      "children": [
+        {
+          "text": "主机黑屏",
+          "value": "2011",
+          "children": [
+            {
+              "text": "断电",
+              "value": "20111",
+              "children": [
+                {
+                  "text": "整体断电",
+                  "value": "201111",
+                  "children": [
+                    {
+                      "text": "等待项目供电系统恢复",
+                      "value": "2011111",
+                      "children": [
+                        {
+                          "text": "塔吊主机显示正常",
+                          "value": "20111111",
+                          "children": [
+                            { "text": "TD-01", "value": "201111111" }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "局部断电",
+                  "value": "201112",
+                  "children": [
+                    {
+                      "text": "检查插线板是否有电",
+                      "value": "2011121",
+                      "children": [
+                        {
+                          "text": "无电",
+                          "value": "20111211",
+                          "children": [
+                            {
+                              "text": "更换插线板",
+                              "value": "201112111",
+                              "children": [
+                                {
+                                  "text": "塔吊主机显示正常",
+                                  "value": "2011121111",
+                                  "children": [
+                                    {
+                                      "text": "TD-02",
+                                      "value": "20111211111"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "text": "有电",
+                          "value": "20111212",
+                          "children": [
+                            {
+                              "text": "升级程序",
+                              "value": "201112121",
+                              "children": [
+                                {
+                                  "text": "恢复显示",
+                                  "value": "2011121211",
+                                  "children": [
+                                    {
+                                      "text": "TD-03",
+                                      "value": "20111212111"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "主机离线",
+          "value": "2012",
+          "children": [
+            {
+              "text": "断网",
+              "value": "20121",
+              "children": [
+                {
+                  "text": "物联网卡欠费",
+                  "value": "201211",
+                  "children": [
+                    {
+                      "text": "缴费恢复塔吊在线",
+                      "value": "2012111",
+                      "children": [
+                        {
+                          "text": "TD-20",
+                          "value": "20121111"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "物联网卡未欠费",
+                  "value": "201212",
+                  "children": [
+                    {
+                      "text": "升级程序",
+                      "value": "2012121",
+                      "children": [
+                        {
+                          "text": "TD-21",
+                          "value": "20121211"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "数据无",
+          "value": "2013",
+          "children": [
+            {
+              "text": "平台数据无",
+              "value": "20131",
+              "children": [
+                {
+                  "text": "回转数据无",
+                  "value": "201311",
+                  "children": [
+                    {
+                      "text": "设备不正常",
+                      "value": "2013111",
+                      "children": [
+                        {
+                          "text": "更换设备",
+                          "value": "20131111",
+                          "children": [
+                            {
+                              "text": "数据有",
+                              "value": "201311111",
+                              "children": [
+                                { "text": "TD-30", "value": "2013111111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "吊重数据无",
+                  "value": "201312",
+                  "children": [
+                    {
+                      "text": "设备不正常",
+                      "value": "2013121",
+                      "children": [
+                        {
+                          "text": "更换设备",
+                          "value": "20131211",
+                          "children": [
+                            {
+                              "text": "TD-32",
+                              "value": "201312111"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "设备正常",
+                      "value": "2013122",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "20131221",
+                          "children": [
+                            {
+                              "text": "数据有",
+                              "value": "201312211",
+                              "children": [
+                                { "text": "TD-33", "value": "2013122111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "变幅数据无",
+                  "value": "201313",
+                  "children": [
+                    {
+                      "text": "设备不正常",
+                      "value": "2013111",
+                      "children": [
+                        {
+                          "text": "更换设备",
+                          "value": "20131111",
+                          "children": [
+                            {
+                              "text": "数据有",
+                              "value": "201311111",
+                              "children": [
+                                { "text": "TD-30", "value": "2013111111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "高度数据无",
+                  "value": "201314",
+                  "children": [
+                    {
+                      "text": "设备不正常",
+                      "value": "2013111",
+                      "children": [
+                        {
+                          "text": "更换设备",
+                          "value": "20131111",
+                          "children": [
+                            {
+                              "text": "数据有",
+                              "value": "201311111",
+                              "children": [
+                                { "text": "TD-30", "value": "2013111111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "手机数据无",
+              "value": "20132",
+              "children": [
+                {
+                  "text": "研发解决",
+                  "value": "201321",
+                  "children": [
+                    {
+                      "text": "数据恢复",
+                      "value": "2013211",
+                      "children": [{ "text": "TD-38", "value": "20132111" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "数据不准",
+          "value": "2014",
+          "children": [
+            {
+              "text": "平台数据不准",
+              "value": "20141",
+              "children": [
+                {
+                  "text": "回转数据不准",
+                  "value": "201411",
+                  "children": [
+                    {
+                      "text": "标定不准",
+                      "value": "2014111",
+                      "children": [
+                        {
+                          "text": "重新标准",
+                          "value": "20141111",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "201411111",
+                              "children": [
+                                { "text": "TD-40", "value": "2014111111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "标定正确显示不准",
+                      "value": "2014112",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "20141121",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "201411211",
+                              "children": [
+                                { "text": "TD-41", "value": "2014112111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "吊重数据不准",
+                  "value": "201412",
+                  "children": [
+                    {
+                      "text": "标定不准",
+                      "value": "2014121",
+                      "children": [
+                        {
+                          "text": "重新标准",
+                          "value": "20141211",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "201412111",
+                              "children": [
+                                { "text": "TD-42", "value": "2014121111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "标定正确显示不准",
+                      "value": "2014122",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "20141221",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "201412211",
+                              "children": [
+                                { "text": "TD-43", "value": "2014122111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "变幅数据不准",
+                  "value": "201413",
+                  "children": [
+                    {
+                      "text": "标定不准",
+                      "value": "2014131",
+                      "children": [
+                        {
+                          "text": "重新标准",
+                          "value": "20141311",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "201413111",
+                              "children": [
+                                { "text": "TD-44", "value": "2014131111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "标定正确显示不准",
+                      "value": "2014132",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "20141321",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "201413211",
+                              "children": [
+                                { "text": "TD-45", "value": "2014132111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "高度数据不准",
+                  "value": "201414",
+                  "children": [
+                    {
+                      "text": "标定不准",
+                      "value": "2014141",
+                      "children": [
+                        {
+                          "text": "重新标准",
+                          "value": "20141411",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "201414111",
+                              "children": [
+                                { "text": "TD-46", "value": "2014141111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "标定正确显示不准",
+                      "value": "2014122",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "20141221",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "201412211",
+                              "children": [
+                                { "text": "TD-47", "value": "2014122111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "手机数据不准",
+              "value": "20142",
+              "children": [
+                {
+                  "text": "研发支持恢复正确",
+                  "value": "201321",
+                  "children": [
+                    {
+                      "text": "TD-48",
+                      "value": "2013211"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "新主机",
+      "value": "202",
+      "children": [
+        {
+          "text": "主机黑屏",
+          "value": "2021",
+          "children": [
+            {
+              "text": "断电",
+              "value": "20211",
+              "children": [
+                {
+                  "text": "整体断电",
+                  "value": "202111",
+                  "children": [
+                    {
+                      "text": "等待项目供电系统恢复",
+                      "value": "2021111",
+                      "children": [
+                        {
+                          "text": "塔吊主机显示正常",
+                          "value": "20211111",
+                          "children": [
+                            { "text": "TD-50", "value": "202111111" }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "局部断电",
+                  "value": "202112",
+                  "children": [
+                    {
+                      "text": "检查插线板是否有电",
+                      "value": "2021121",
+                      "children": [
+                        {
+                          "text": "无电",
+                          "value": "20211211",
+                          "children": [
+                            {
+                              "text": "更换插线板",
+                              "value": "202112111",
+                              "children": [
+                                {
+                                  "text": "塔吊主机显示正常",
+                                  "value": "2021121111",
+                                  "children": [
+                                    {
+                                      "text": "TD-51",
+                                      "value": "20211211111"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "text": "有电",
+                          "value": "20211212",
+                          "children": [
+                            {
+                              "text": "升级程序",
+                              "value": "202112121",
+                              "children": [
+                                {
+                                  "text": "恢复显示",
+                                  "value": "2021121211",
+                                  "children": [
+                                    {
+                                      "text": "TD-52",
+                                      "value": "20211212111"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "主机离线",
+          "value": "2022",
+          "children": [
+            {
+              "text": "断网",
+              "value": "20221",
+              "children": [
+                {
+                  "text": "物联网卡欠费",
+                  "value": "202211",
+                  "children": [
+                    {
+                      "text": "缴费恢复塔吊在线",
+                      "value": "2022111",
+                      "children": [
+                        {
+                          "text": "TD-60",
+                          "value": "20221111"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "物联网卡未欠费",
+                  "value": "202212",
+                  "children": [
+                    {
+                      "text": "升级程序",
+                      "value": "2022121",
+                      "children": [
+                        {
+                          "text": "TD-61",
+                          "value": "20221211"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "数据无",
+          "value": "2023",
+          "children": [
+            {
+              "text": "平台数据无",
+              "value": "20231",
+              "children": [
+                {
+                  "text": "回转数据无",
+                  "value": "202311",
+                  "children": [
+                    {
+                      "text": "设备不正常",
+                      "value": "2023111",
+                      "children": [
+                        {
+                          "text": "更换设备",
+                          "value": "20231111",
+                          "children": [
+                            {
+                              "text": "数据有",
+                              "value": "202311111",
+                              "children": [
+                                { "text": "TD-70", "value": "202311111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "设备正常",
+                      "value": "2023112",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "20231121",
+                          "children": [
+                            {
+                              "text": "数据有",
+                              "value": "202311211",
+                              "children": [
+                                { "text": "TD-71", "value": "2023112111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "吊重数据无",
+                  "value": "202312",
+                  "children": [
+                    {
+                      "text": "设备不正常",
+                      "value": "2023121",
+                      "children": [
+                        {
+                          "text": "更换设备",
+                          "value": "20231211",
+                          "children": [
+                            {
+                              "text": "TD-72",
+                              "value": "202312111"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "设备正常",
+                      "value": "2023122",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "20231221",
+                          "children": [
+                            {
+                              "text": "数据有",
+                              "value": "202312211",
+                              "children": [
+                                { "text": "TD-73", "value": "2023122111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "变幅数据无",
+                  "value": "202313",
+                  "children": [
+                    {
+                      "text": "设备不正常",
+                      "value": "2023131",
+                      "children": [
+                        {
+                          "text": "更换设备",
+                          "value": "20231311",
+                          "children": [
+                            {
+                              "text": "数据有",
+                              "value": "202313111",
+                              "children": [
+                                { "text": "TD-74", "value": "2023131111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "设备正常",
+                      "value": "2023132",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "20231321",
+                          "children": [
+                            {
+                              "text": "数据有",
+                              "value": "202313211",
+                              "children": [
+                                { "text": "TD-75", "value": "2023132111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "高度数据无",
+                  "value": "2023134",
+                  "children": [
+                    {
+                      "text": "设备不正常",
+                      "value": "20231341",
+                      "children": [
+                        {
+                          "text": "更换设备",
+                          "value": "202313411",
+                          "children": [
+                            {
+                              "text": "数据有",
+                              "value": "2023134111",
+                              "children": [
+                                { "text": "TD-76", "value": "20231341111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "设备正常",
+                      "value": "20231342",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "202313421",
+                          "children": [
+                            {
+                              "text": "数据有",
+                              "value": "2023134211",
+                              "children": [
+                                { "text": "TD-77", "value": "20231342111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "手机数据无",
+              "value": "20232",
+              "children": [
+                {
+                  "text": "研发解决",
+                  "value": "202321",
+                  "children": [
+                    {
+                      "text": "数据恢复",
+                      "value": "2023211",
+                      "children": [{ "text": "TD-78", "value": "20232111" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "数据不准",
+          "value": "2024",
+          "children": [
+            {
+              "text": "平台数据不准",
+              "value": "20241",
+              "children": [
+                {
+                  "text": "回转数据不准",
+                  "value": "202411",
+                  "children": [
+                    {
+                      "text": "标定不准",
+                      "value": "2024111",
+                      "children": [
+                        {
+                          "text": "重新标准",
+                          "value": "20241111",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "202411111",
+                              "children": [
+                                { "text": "TD-80", "value": "2024111111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "标定正确显示不准",
+                      "value": "2024112",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "20241121",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "202411211",
+                              "children": [
+                                { "text": "TD-81", "value": "2024112111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "吊重数据不准",
+                  "value": "202412",
+                  "children": [
+                    {
+                      "text": "标定不准",
+                      "value": "2024121",
+                      "children": [
+                        {
+                          "text": "重新标准",
+                          "value": "20241211",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "202412111",
+                              "children": [
+                                { "text": "TD-82", "value": "2024121111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "标定正确显示不准",
+                      "value": "2024122",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "20241221",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "202412211",
+                              "children": [
+                                { "text": "TD-83", "value": "2024122111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "变幅数据不准",
+                  "value": "202413",
+                  "children": [
+                    {
+                      "text": "标定不准",
+                      "value": "2024131",
+                      "children": [
+                        {
+                          "text": "重新标准",
+                          "value": "20241311",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "202413111",
+                              "children": [
+                                { "text": "TD-84", "value": "2024131111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "标定正确显示不准",
+                      "value": "2024132",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "20241321",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "202413211",
+                              "children": [
+                                { "text": "TD-85", "value": "2024132111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "高度数据不准",
+                  "value": "202414",
+                  "children": [
+                    {
+                      "text": "标定不准",
+                      "value": "2024141",
+                      "children": [
+                        {
+                          "text": "重新标准",
+                          "value": "20241411",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "202414111",
+                              "children": [
+                                { "text": "TD-86", "value": "2024141111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "标定正确显示不准",
+                      "value": "2024142",
+                      "children": [
+                        {
+                          "text": "升级程序",
+                          "value": "20241421",
+                          "children": [
+                            {
+                              "text": "恢复正常",
+                              "value": "202414211",
+                              "children": [
+                                { "text": "TD-87", "value": "2024142111" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "手机数据不准",
+              "value": "20242",
+              "children": [
+                {
+                  "text": "研发解决",
+                  "value": "202421",
+                  "children": [
+                    {
+                      "text": "数据准确",
+                      "value": "2024211",
+                      "children": [
+                        {
+                          "text": "TD-88",
+                          "value": "20242111"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

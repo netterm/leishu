@@ -1,0 +1,19 @@
+declare interface GroupInterface {
+  address: string // 暂住地址
+  age: string // 年龄
+  companyName: string // 所属企业
+  cultureLevelType: string // 文化程度,学历
+  enterDate: string // 进场时间
+  exitDate: string // 出场时间
+  idCard: string // 身份证号码
+  leader: string // 班组长
+  leaderMobile: string // 班组长电话
+  name: string // 班组名称（项目唯一）
+  nation: string // 民族
+  personName: string // 人员姓名
+  politicsType: string // 政治面貌
+  projectName: string // 项目名称
+  sex: string // 性别
+  state: boolean // 进出场状态
+  workerTypeName: string // 工种
+}
